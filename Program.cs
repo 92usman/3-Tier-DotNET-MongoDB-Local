@@ -30,7 +30,7 @@ if (!app.Environment.IsDevelopment())
 // Listen on port 5035 for any IP address
 app.Urls.Add("http://0.0.0.0:5035");
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
